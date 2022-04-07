@@ -1,0 +1,29 @@
+@keyframes FadeIn{0%{opacity:0;top:100px}80%{opacity:.3;top:0px}100%{opacity:1}}
+@keyframes Pop{from{max-height:0px}to{max -height:300px}}
+@keyframes TextRotation{65%{opacity:0;transform:rotateY(-90deg)}100%{opacity:0;transform:rotateY(-90deg)}15%{opacity:1;transform:rotateY (0deg)}50 %{opacity:1;transform:rotateY(0deg)}}
+@keyframes Show{0%{opacity:0;height:0}99%{opacity:0;height:0}100%{opacity : 1;height:auto}}
+@keyframes Hide{0%{opacity:1;height:auto;margin-top:300px}99%{opacity:1;height:auto;margin-top:300px}100%{opacity : 0;height:0;margin-top:0px}}
+.image-container{width:100%;height:250px;overflow:hidden;position:relative}
+.image-container img{height:100%;width:100% ;object-fit:cover}
+.image-containertop-menu{background-color:#f6f6f6;width:100%;height:30px;border-top-left-radius:25px;border-top-right-radius:25px; position:absolute;bottom:0}
+.heading{affichage :flex;flex-direction:row;justify-content:space-between;align-items:center;background-color:#f6f6f6;padding:0 20px 20px 20px}
+.menu-section{padding:0 20px 0 20px}
+.menu -sectionheading{font-weight:100;text-transform:uppercase;position:relative}
+.menu-sectionheading::before{content:"";width:50px;border-bottom:solid #99e2d0 3px;position:absolute;left :0;bottom:-5px}
+.menu-sectionitem-container{animation:Pop .5s Linear;max-height:0px;animation-fill-mode:forwards;padding-bottom:30px}
+.purchase-section{display:flex ;justify-content:center;align-items:center;margin-bottom:50px}.item{animation:FadeIn 1s linear;animation-fill-mode:forwards;border-radius:15px;display:flex;flex-direction : ligne;débordement:caché;margin-top:10px;box-shadow:rgba(0,0,0,.16) 0px 3px 6px,rgba(0,0,0,.23) 0px 3px 6px;position:relative; opacity:0}.item:nth-child(1){animation-delay :.5s}
+.item:nth-child(2){animation-delay:.75s}
+.item:nth-child(3){animation-delay:1s}
+.item:nth-child(4){animation-delay:1.25 s}
+.item strong{align-self:flex-end;padding:0 30px}
+.itemtexts{display:flex;flex-direction:column;overflow:hidden}
+.itemtexts p,.item__textsoverflow:ellipsis;white-space:nowrap}
+.iteminfos{width:100%;transition:width .5s;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;padding : 10px 0px 10px 10px}
+.iteminfos h3{width:100%;font-weight:bold}
+.itemcheck{width:0%;transition:width .5s;display:flex;justify-content:center;align-items:center; overflow:hidden}
+.itemcheck i{font-size:20px;color:#fff;padding:0 20px;display:inline-block;transform:rotate(180deg);transition:transform 1s}
+.item:hover{cursor:pointer }
+.item:hover .iteminfos{width:80%}
+.item:hover .itemcheck{width:20%}
+.élément : hover 
+.item__check i{transform : rotation (0deg)}

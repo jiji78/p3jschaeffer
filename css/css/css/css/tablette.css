@@ -1,0 +1,15 @@
+.center{max-width:100%}
+.instruction{align-items:center}
+.instruction h3{margin-right:0}
+.presentation{padding-bottom:0}
+.presentation__container{display:flex;margin:0;margin -top:10px}
+.instruction{width:33.333%}
+.restaurants{display:flex;flex-wrap:wrap;justify-content:space-between}
+.restaurants h2{width:100%}
+.card{width:47.5% }
+.image-container{height:400px}main 
+.menu-center{display:flex;flex-wrap:wrap;background-color:#f6f6f6;justify-content:center}main 
+.menu-center 
+.menu-section{width :50%}main 
+.menu-center .purchase-section{background-color:#fff;margin-bottom:0;padding-bottom:50px}
+.heading{width:100%}

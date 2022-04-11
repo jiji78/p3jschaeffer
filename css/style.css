@@ -1,12 +1,12 @@
-html {
-    html,body
+.html{
     width:100%;
-    min-width:350px
+    min-width:350px;
     box-sizing:border-box;
-    margin:0;
-    padding:0;
+    margin:0 auto
+    padding:0
     user-select:none
-}.center{
+}
+.center{
     width:100%;
     max-width:500px;
     margin:0 auto
@@ -58,8 +58,12 @@ a{
 }
 .bg--pastel-green{
     background-color:#99e2d0
-}@keyframes 
-FadeIn{0%{opacity:0;top:100px
+}
+@keyframes 
+FadeIn{
+    0%{
+        opacity:0;
+        top:100px
 }
 80%{
     opacity:.3;
@@ -77,15 +81,22 @@ FadeIn{0%{opacity:0;top:100px
 }
 @keyframes TextRotation{
     65%{
-        opacity:0;transform:rotateY(-90deg)
+        opacity:0;
+        transform:rotateY(-90deg)
     }100%{
-        opacity:0;transform:rotateY(-90deg)
+        opacity:0;
+        transform:rotateY(-90deg)
     }
-    15%{opacity:1;transform:rotateY(0deg)
+    15%{
+        opacity:1;
+        transform:rotateY(0deg)
     }
-    50%{opacity:1;transform:rotateY(0deg)
+    50%{
+        opacity:1;
+        transform:rotateY(0deg)
     }
-}@keyframes Show{
+}
+@keyframes Show{
     0%{
         opacity:0;height:0
     }
@@ -286,6 +297,7 @@ header .back-button i{
     background:linear-gradient(#9356dc, #ff79da);
     background-clip:text;
     -webkit-background-clip:text;
-    color:transparent;transform:scale(0);
+    color:transparent;
+    transform:scale(0);
 }
    

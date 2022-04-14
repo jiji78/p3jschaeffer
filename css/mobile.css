@@ -109,3 +109,6 @@ footer,header,main{
     transform:rotateY(-90deg);
     animation:TextRotation 4s linear infinite
 }
+.article{
+    width: 40%;
+}

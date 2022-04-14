@@ -7,17 +7,17 @@
 .instruction h3{
     margin-right:0
 }
-.presentation
-{padding-bottom:0
+.presentation{
+    padding-bottom:0
 }
 .presentation__container{
     display:flex;
     margin:0;
-    margin -top:10px
+    margin-top:10px
 }
 .instruction{
-    width: 30%;
-    margin: 20px;
+    width: 33.333%;
+    margin: 5%;
 }
 .restaurants{
     display:flex;

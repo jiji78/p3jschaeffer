@@ -16,7 +16,8 @@
     margin -top:10px
 }
 .instruction{
-    width:33.333%
+    width: 30%;
+    margin: 20px;
 }
 .restaurants{
     display:flex;
